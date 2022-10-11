@@ -3,6 +3,28 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import SplineLoader from '@splinetool/loader';
 import { InteractionManager } from 'three.interactive';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB_VTedoDfQzfDY0Od1zDyOoHrwOlbL1kw",
+  authDomain: "ipmedthfelipeprototype.firebaseapp.com",
+  projectId: "ipmedthfelipeprototype",
+  storageBucket: "ipmedthfelipeprototype.appspot.com",
+  messagingSenderId: "399835611120",
+  appId: "1:399835611120:web:68bec71c7dd8f96334a735",
+  measurementId: "G-7TXNDMPDM4"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 const buttonOne = document.getElementById('buttonOne');
 const buttonTwo = document.getElementById('buttonTwo');
 const buttonThree = document.getElementById('buttonThree');

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@splinetool/loader": "^0.9.117",
+    "firebase": "^9.11.0",
     "three": "^0.145.0",
     "three.interaction": "^0.2.3",
     "three.interactive": "^1.4.0"
