@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/3dpagestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+<!-- 
+    <iframe class="three" src='https://my.spline.design/house1-4f54e8f23a2a6bc67296e0c451d55be2/' frameborder='0' width='100%' height='100%'></iframe>
+    
+    <div class="container"></div>
+     -->
+
+     <div class="legend">
+        <div id="noRisk" class="legend__item">
+          <p>No Risk</p>
+          <span></span>     
+        </div>
+
+        <div id="lowRisk" class="legend__item">
+          <p>Low Risk</p>
+          <span></span>     
+        </div>
+
+        <div id="midRisk" class="legend__item">
+          <p>Mid Risk</p>
+          <span></span>     
+        </div>
+
+        <div id="highRisk" class="legend__item">
+          <p>High Risk</p>
+          <span></span>     
+        </div>
+    </div>
+
+    <section>
+      <article id="text1" class="info">
+        <h1>Day 1 Sample 1</h1>
+        <ul>
+          <li>Location: L-tafel middenstuk</li>
+          <li>Contaminatie: Listeria</li>
+          <li>Risk: None</li>
+          <li>Sampling Time: 10:43</li>
+        </ul>
+      </article>
+
+      <article id="text2" class="info">
+        <h1>Day 1 Sample 2</h1>
+        <ul>
+          <li>Location: Vergaderruimte</li>
+          <li>Contaminatie: Legionella</li>
+          <li>Risk: High</li>
+          <li>Sampling Time: 10:45</li>
+        </ul>
+      </article>
+
+      <article id="text3" class="info">
+        <h1>Day 1 Sample 3</h1>
+        <ul>
+          <li>Location: L-tafel middenstuk</li>
+          <li>Contaminatie: Listeria</li>
+          <li>Risk: Mid</li>
+          <li>Sampling Time: 10:52</li>
+        </ul>
+      </article>
+
+      <article id="text4" class="info">
+        <h1>Day 1 Sample 4</h1>
+        <ul>
+          <li>Location: L-tafel middenstuk</li>
+          <li>Contaminatie: Listeria</li>
+          <li>Risk: None</li>
+          <li>Sampling Time: 10:58</li>
+        </ul>
+      </article>
+
+      <article id="text5" class="info">
+        <h1>Day 1 Sample 5</h1>
+        <ul>
+          <li>Location: L-tafel middenstuk</li>
+          <li>Contaminatie: Salmonella</li>
+          <li>Risk: Low</li>
+          <li>Sampling Time: 11:12</li>
+        </ul>
+      </article>
+    </section>
+
+    <div class="button_container">
+      <button id="buttonOne" onclick="dayOne()">Sampling one</button>
+      <button id="buttonTwo">Sampling two</button>
+      <button id="buttonThree">Sampling three</button>
+      <button id="buttonFour">Sampling four</button>
+    </div>
+
+  </body>
+  <script type="module" src="/main.js"></script>
+</html>
